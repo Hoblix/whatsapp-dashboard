@@ -2,7 +2,7 @@ import { useState, useRef, useEffect, type FormEvent, type KeyboardEvent } from 
 import { useAuth } from "@/context/AuthContext";
 import { useLocation } from "wouter";
 
-const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+const BASE = (import.meta.env.VITE_API_URL ?? "").replace(/\/$/, "");
 
 type Step = "phone" | "otp";
 

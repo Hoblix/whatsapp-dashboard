@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { format } from "date-fns"
 import { Check, CheckCheck, Clock, FileText, Image as ImageIcon, Video, Mic, MapPin, Sticker, Download } from "lucide-react"
 import { cn } from "@/lib/utils"
-import type { Message } from "@workspace/api-client-react"
+import type { Message } from "../../lib/api-client"
 
 interface MessageBubbleProps {
   message: Message;

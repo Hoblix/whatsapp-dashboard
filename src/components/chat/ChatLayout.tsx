@@ -2,7 +2,7 @@ import React from "react"
 import { useRoute } from "wouter"
 import { ConversationList } from "./ConversationList"
 import { ChatDetail } from "./ChatDetail"
-import { useListConversations, useGetConversation } from "@workspace/api-client-react"
+import { useListConversations, useGetConversation } from "../../lib/api-client"
 import { useRealtimeUpdates } from "@/hooks/useRealtimeUpdates"
 
 export function ChatLayout() {

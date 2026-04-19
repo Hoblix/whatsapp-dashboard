@@ -3,7 +3,7 @@ import { useLocation } from "wouter"
 import { ArrowLeft, MoreVertical, Search, Send, Paperclip, Smile, Mic, Image as ImageIcon, Video, FileText, X, User, ChevronRight, AlertCircle, Loader2, UploadCloud } from "lucide-react"
 import { Avatar } from "@/components/ui/avatar"
 import { MessageBubble } from "./MessageBubble"
-import type { Message, Conversation } from "@workspace/api-client-react"
+import type { Message, Conversation } from "../../lib/api-client"
 import { CustomerProfileDrawer } from "./CustomerProfileDrawer"
 import { TemplatePickerModal } from "./TemplatePickerModal"
 

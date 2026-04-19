@@ -1,7 +1,7 @@
 import React from "react"
 import { useLocation } from "wouter"
 import { ArrowLeft, ArrowDownToLine, MessageSquare, Phone, Clock, Filter } from "lucide-react"
-import { useGetHistory } from "@workspace/api-client-react"
+import { useGetHistory } from "../lib/api-client"
 import { formatWhatsAppTime } from "@/lib/utils"
 import { cn } from "@/lib/utils"
 

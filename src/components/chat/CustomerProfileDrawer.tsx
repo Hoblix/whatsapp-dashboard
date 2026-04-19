@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { X, Save, User, Phone, Mail, Tag, FileText, Loader2 } from "lucide-react"
-import type { Conversation } from "@workspace/api-client-react"
+import type { Conversation } from "../../lib/api-client"
 import { Avatar } from "@/components/ui/avatar"
 import { cn } from "@/lib/utils"
 
