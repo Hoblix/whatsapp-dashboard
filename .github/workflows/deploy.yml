@@ -6,7 +6,7 @@ on:
 env:
   AWS_REGION: ap-south-1
   S3_BUCKET: hoblix-whatsapp-dashboard
-  CLOUDFRONT_DIST_ID: ${{ secrets.CLOUDFRONT_DIST_ID }}
+  CLOUDFRONT_DIST_ID: E17YA287FOA9KJ
 
 jobs:
   deploy:
